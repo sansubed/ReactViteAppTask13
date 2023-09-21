@@ -9,9 +9,12 @@ function WeatherApp() {
     cityName: "Lubbock",
     condition: "sunny",
   };
-  //Array destructuring
+  //Array destructuring //weather is a state variable and cannot be changed and cannot be changed as other normal variables, can only be called with setWeather.
   const [weather, setWeather] = useState(weatherData);
 
+  //after this state the weather value does not change
+
+  //re-render happens here ->
   return (
     <div
       className={
@@ -70,3 +73,9 @@ function WeatherApp() {
 }
 
 export default WeatherApp;
+
+// int x
+// function()
+// {
+//   x=1;
+// }
