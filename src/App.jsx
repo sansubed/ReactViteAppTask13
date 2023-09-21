@@ -1,7 +1,11 @@
+import WeatherApp from "./components/WeatherApp";
+
 function App() {
   return (
     <>
-      <div>Hello</div>
+      <div>
+        <WeatherApp />
+      </div>
     </>
   );
 }
