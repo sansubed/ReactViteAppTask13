@@ -1,9 +1,15 @@
+import WeatherApp from "./component/weather-app";
+
 function App() {
   return (
     <>
-      <div>Hello</div>
+      <div>
+        <WeatherApp />
+      </div>
     </>
+  );
   );
 }
 
+export default App;
 export default App;
