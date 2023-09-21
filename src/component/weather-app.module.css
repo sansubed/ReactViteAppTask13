@@ -1,0 +1,78 @@
+.dark {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sunny {
+  background-image: url("https://i.gifer.com/CZx.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.rainy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://media3.giphy.com/media/JjrDsvilNKgw0/giphy.gif");
+  opacity: 0.8;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cold {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/animation/2023/02/15/02/31/02-31-39-143_512.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  background-color: rgb(14, 74, 80);
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-size: x-large;
+  color: white;
+}
+
+p {
+  color: rgb(9, 28, 237);
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+h1,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
